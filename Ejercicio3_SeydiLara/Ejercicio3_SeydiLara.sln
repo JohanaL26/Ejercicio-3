@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3_SeydiLara", "Ejercicio3_SeydiLara.csproj", "{A8139DBF-FBE0-4D27-A2CC-54D1D1079043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{76F0B719-87CA-40B3-8F51-E0DC5091D704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8139DBF-FBE0-4D27-A2CC-54D1D1079043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8139DBF-FBE0-4D27-A2CC-54D1D1079043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8139DBF-FBE0-4D27-A2CC-54D1D1079043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8139DBF-FBE0-4D27-A2CC-54D1D1079043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F0B719-87CA-40B3-8F51-E0DC5091D704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F0B719-87CA-40B3-8F51-E0DC5091D704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F0B719-87CA-40B3-8F51-E0DC5091D704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F0B719-87CA-40B3-8F51-E0DC5091D704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10FDA054-9005-4030-A318-C9EC0F905811}
+	EndGlobalSection
+EndGlobal

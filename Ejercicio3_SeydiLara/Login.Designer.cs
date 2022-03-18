@@ -65,10 +65,11 @@
             this.UsuarioTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.UsuarioTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.UsuarioTextBox.Location = new System.Drawing.Point(177, 49);
-            this.UsuarioTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UsuarioTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.UsuarioTextBox.Name = "UsuarioTextBox";
             this.UsuarioTextBox.Size = new System.Drawing.Size(123, 22);
             this.UsuarioTextBox.TabIndex = 1;
+            this.UsuarioTextBox.Text = "NCASCO";
             // 
             // ClaveTextBox
             // 
@@ -76,10 +77,12 @@
             this.ClaveTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ClaveTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.ClaveTextBox.Location = new System.Drawing.Point(177, 99);
-            this.ClaveTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClaveTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ClaveTextBox.Name = "ClaveTextBox";
+            this.ClaveTextBox.PasswordChar = '*';
             this.ClaveTextBox.Size = new System.Drawing.Size(123, 22);
             this.ClaveTextBox.TabIndex = 1;
+            this.ClaveTextBox.Text = "123";
             // 
             // AceptarButton
             // 
@@ -87,7 +90,7 @@
             this.AceptarButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.AceptarButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.AceptarButton.Location = new System.Drawing.Point(35, 152);
-            this.AceptarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AceptarButton.Margin = new System.Windows.Forms.Padding(4);
             this.AceptarButton.Name = "AceptarButton";
             this.AceptarButton.Size = new System.Drawing.Size(116, 31);
             this.AceptarButton.TabIndex = 2;
@@ -102,7 +105,7 @@
             this.CancelarButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CancelarButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.CancelarButton.Location = new System.Drawing.Point(191, 152);
-            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(118, 31);
             this.CancelarButton.TabIndex = 2;
@@ -130,7 +133,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Login_Load);
